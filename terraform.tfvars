@@ -1,0 +1,14 @@
+aws-region = "us-west-1"
+vpc-cidr = "192.168.0.0/16"
+aws_azs = ["us-west-1a", "us-west-1b"]
+public_subnet_cidrs = ["192.168.1.0/24", "192.168.2.0/24"]
+private_subnet_cidrs = ["192.168.3.0/24", "192.168.4.0/24"] 
+instance-type = "t2.micro" 
+key_name = "IAM_California"
+key_path = "C:/Users/Harsh Gupta/Documents/AWS_keys/IAM_California.pem"
+volume-size = 20
+rds_db_name =  "wordpress_db"
+rds_db_username = "admin"
+rds_db_password = "Redhat123"
+rds_storage = 10
+rds_instance_class = "db.t3.micro"
